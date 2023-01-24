@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  subheading = "This is made in Angular TS by a newb";
+  subheading = "This is made in Angular TS by a newb, following a walkthrough";
 }
