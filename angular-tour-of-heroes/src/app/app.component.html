@@ -1,4 +1,9 @@
 <h1>{{title}}</h1>
 <h3>{{subheading}}</h3>
-<app-heroes></app-heroes>
+<nav>
+    <a routerLink="/heroes">Heroes</a>
+    
+    <a routerLink="/dashboard">Dashboard</a>
+</nav>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
